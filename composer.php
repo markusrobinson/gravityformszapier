@@ -1,0 +1,17 @@
+{
+    "name": "markusrobinson/gravityformszapier",
+    "description": "Fork of Gravity Forms Plugin for WordPress",
+    "keywords": ["wordpress", "affiliate"],
+    "homepage": "http://gravityforms.com/",
+    "authors": [
+        {
+            "name": "Markus Robinson",
+            "homepage": "http://pippinsplugins.com/"
+        }
+    ],
+    "type": "wordpress-plugin",
+    "require": {
+        "composer/installers": "~1.0"
+    },
+"minimum-stability": "dev"
+}
