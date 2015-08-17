@@ -1,4 +1,25 @@
 -------------------------------------------------------------------------------------------------------------------
+Version 1.7.5
+    - Added the 'gform_zapier_feed_conditional_logic' filter enabling the feed conditional logic rule to be overridden during submission, allowing multiple rules to be defined.
+        add_filter( 'gform_zapier_feed_conditional_logic', function( $logic, $form, $zap ) {
+            $logic['rules'][] = array(
+                'fieldId'  => '5',
+                'operator' => 'is',
+                'value'    => 'Yes',
+            );
+
+            return $logic;
+        }, 10, 3 );
+
+-------------------------------------------------------------------------------------------------------------------
+Version 1.7.4
+	- Fixed some php notices related to the PayPal Standard delayed payment feature.
+
+-------------------------------------------------------------------------------------------------------------------
+Version 1.7.3
+	- Fixed a warning related to GFZapier::is_delayed() being called statically.
+
+-------------------------------------------------------------------------------------------------------------------
 Version 1.7.2
     - Fixed an issue with a db table error occurring if the framework version of the PayPal add-on is not installed.
 
