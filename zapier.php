@@ -4,7 +4,7 @@
 Plugin Name: Gravity Forms Zapier Add-on
 Plugin URI: http://www.gravityforms.com
 Description: Integrates Gravity Forms with Zapier allowing form submissions to be automatically sent to your configured Zaps.
-Version: 1.7.5
+Version: 1.8
 Author: rocketgenius
 Author URI: http://www.rocketgenius.com
 Text Domain: gravityformszapier
@@ -36,8 +36,8 @@ class GFZapier {
 	private static $slug = "gravityformszapier";
 	private static $path = "gravityformszapier/zapier.php";
     private static $url = "http://www.gravityforms.com";
-    private static $version = "1.7.5";
-    private static $min_gravityforms_version = "1.7.5";
+    private static $version = "1.8";
+    private static $min_gravityforms_version = "1.7.6";
 
 	public static function init(){
 
@@ -1111,6 +1111,10 @@ class GFZapierTable extends WP_List_Table {
 
         parent::__construct();
     }
+
+	function get_columns() {
+		return $this->_column_headers[0];
+	}
 
     function prepare_items() {
     	//query db

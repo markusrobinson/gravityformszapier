@@ -1,9 +1,9 @@
 # Copyright 2009-2015 Rocketgenius, Inc.
 msgid ""
 msgstr ""
-"Project-Id-Version: Gravity Forms Zapier Add-on 1.7.5\n"
+"Project-Id-Version: Gravity Forms Zapier Add-on 1.8\n"
 "Report-Msgid-Bugs-To: http://www.gravtiyhelp.com\n"
-"POT-Creation-Date: 2015-07-29 10:36:20+00:00\n"
+"POT-Creation-Date: 2015-08-18 21:48:49+00:00\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -196,31 +196,31 @@ msgstr ""
 msgid "Send feed to Zapier only when payment is received."
 msgstr ""
 
-#: zapier.php:1151
+#: zapier.php:1155
 msgid "You currently don't have any Zapier Feeds, let's go %screate one%s"
 msgstr ""
 
-#: zapier.php:1170
+#: zapier.php:1174
 msgid "Edit this item"
 msgstr ""
 
-#: zapier.php:1170
+#: zapier.php:1174
 msgid "Edit"
 msgstr ""
 
-#: zapier.php:1171
+#: zapier.php:1175
 msgid "Delete this item"
 msgstr ""
 
-#: zapier.php:1171
+#: zapier.php:1175
 msgid "WARNING: You are about to delete this Zapier feed."
 msgstr ""
 
-#: zapier.php:1171
+#: zapier.php:1175
 msgid "\\'Cancel\\' to stop, \\'OK\\' to delete."
 msgstr ""
 
-#: zapier.php:1171
+#: zapier.php:1175
 msgid "Delete"
 msgstr ""
 
